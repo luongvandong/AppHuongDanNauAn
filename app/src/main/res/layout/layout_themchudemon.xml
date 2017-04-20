@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/icbackground_actionbar"
+        android:orientation="horizontal">
+
+        <ImageButton
+
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/selector_btback" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Chủ Đề Món" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listviewChuDeMon"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></ListView>
+    <Button
+        android:id="@+id/bt_themchude"
+        android:text="Them Chu De"
+        android:background="@drawable/selecttor_btthemchude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
